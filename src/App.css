@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+section {
+  width: calc(100% - 4px);
+  margin: 2px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kvadratas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid purple;
+}
+
+.apskritimas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid plum;
+  border-radius: 50%;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  border: 3px solid plum;
+  /* color: red; */
+  /* box-shadow: 0 0 10px red; */
+  background-color: black;
+  border-radius: 50%;
+  font-weight: bold;
+}
