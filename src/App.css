@@ -52,8 +52,8 @@ section {
   margin: 3px;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 100px;
-  height: 100px;
+  width: 105px;
+  height: 105px;
   border: 3px solid purple;
 }
 
@@ -65,8 +65,8 @@ section {
   margin: 3px;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 100px;
-  height: 100px;
+  width: 105px;
+  height: 105px;
   border: 3px solid plum;
   border-radius: 50%;
 }
@@ -85,4 +85,74 @@ section {
   background-color: black;
   border-radius: 50%;
   font-weight: bold;
+}
+
+.suo {
+  display: flex;
+  margin: 20px;
+}
+
+.snukis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 200px;
+  border-radius: 0 0 50% 50%;
+  /* background-color: blanchedalmond; */
+  border: 3px solid brown;
+}
+
+.kaire-ausis {
+  width: 30px;
+  height: 150px;
+  border-radius: 70px 0 40px 40px;
+  background-color: brown;
+}
+
+.desine-ausis {
+  width: 30px;
+  height: 150px;
+  border-radius: 0 70px 40px 40px;
+  background-color: brown;
+}
+
+.akys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* border: 1px solid white; */
+  /* background-color: black; */
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.rainele {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #61dafb;
+}
+
+.vizdys {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.akys::after {
+  content: '';
+  position: absolute;
+  background-color: plum;
+  border-radius: 50% 50% 25px 25px;
+  width: 20px;
+  height: 12px;
+  bottom: -25px;
+  left: calc(50% - 10px);
 }
